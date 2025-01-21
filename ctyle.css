@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  header {
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    color: #737373;
+  }
+  li {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.09px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  h1 {
+    margin: 30px 40px;
+    margin-top: 100px;
+    width: 600px;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 58.59px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .section_one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  button {
+    color: white;
+    margin: 30px 40px;
+    width: 179px;
+    height: 53px;
+    border-radius: 7px;
+    background: linear-gradient(95.2deg, #b90160 2.23%, #2e3192 99.51%);
+  }
+  h2 {
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 58.59px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  span {
+    color: rgb(141, 27, 141);
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 58.59px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .card_two {
+    flex-wrap: wrap;
+  }
+  .card_two{
+    flex-wrap: wrap;
+  }
+  .card_two p {
+    width: 367px;
+    text-align: left;
+  }
+  .card_two {
+    margin: 0px 40px;
+    background-color: #ffffffd7;
+    width: 344px;
+    height: 414px;
+    border-radius: 9px;
+  }
+  .section_tree {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card_three {
+    background: #ffffff;
+    box-shadow: 0px 0px 30px 0px #00000040;
+  }
+  .card_three p {
+    width: 350px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.09px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .section_four {
+    padding: 70px;
+    margin-top: 100px;
+    background: linear-gradient(
+      94.31deg,
+      rgba(212, 20, 90, 0.25) 0.96%,
+      rgba(46, 49, 146, 0.25) 104.83%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+  h4 {
+    padding: 10px 20px;
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 58.59px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .card_three img {
+    margin-left: 100px;
+  }
+  .card_footer_one {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+  }
+  b {
+    margin-bottom: 10px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .card_footer_two {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  @media (max-width: 1010px) {
+    ul {
+      display: none;
+    }
+  
+    h1 {
+      width: 353px;
+    }
+    .section_tree {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+    .card_two{
+      margin-bottom: 70px;
+    }
+    .section_four{
+      display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+    .card_three{
+    
+      width: 540px;
+      margin-bottom: 70px;
+    }
+    footer{
+      padding: 0px 20px;
+    }
+    .card_three img p {
+       display: flex;
+       justify-content: center;
+       margin: 20px 50px;
+    }
+  }
+
+
+  footer {
+    padding: 172px 43px;
+  }
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

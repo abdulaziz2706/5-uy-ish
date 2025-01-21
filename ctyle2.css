@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(./Rectangle\ 18.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+width: 100vh;
+}
+
+
+
+input {
+    width: 749.73px;
+    height: 81.65px;
+    border-radius: 9px;
+    border: 1px solid #A1A1A1
+}
+
+.ikki {
+    transform: translateX(-190px);
+}
+
+.iki {
+    display: flex;
+    gap: 0px;
+    margin: 55px 0;
+
+}
+
+.iki input {
+    width: 362.49px;
+    height: 50.72px;
+    border-radius: 9px;
+    border: 1px solid #A1A1A1;
+
+    padding-left: 21px;
+}
+
+input {
+    margin-left: 215px;
+    padding-left: 21px;
+}
+
+.kotta {
+    background-color: white;
+    width: 1180.27px;
+    height: 392.18px;
+    border-radius: 15px;
+    margin: 276px auto;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 12px;
+}
+
+
+.btn {
+    color: white;
+    margin: 30px 40px;
+    width: 179px;
+    height: 53px;
+    border-radius: 7px;
+    background: linear-gradient(95.2deg, #b90160 2.23%, #2e3192 99.51%);
+    margin: 30px 501px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width:768px) {
+    .kotta {
+        width: 635px;
+        height: 401px;
+        border: 1px;
+        margin: 0 80px;
+    }
+
+    input {
+        width: 432px;
+        height: 95px;
+        border-radius: 9px;
+        border: 1px solid #A1A1A1;
+        margin-left: 102px;
+        margin-right: 100px;
+        
+    }
+
+    .iki input {
+        width: 432px;
+        height: 41px;
+        padding: 20px 156px;
+        border-radius: 9px;
+        border: 1px solid #A1A1A1;
+        margin-left: 102px;
+        flex-wrap: wrap;
+    }
+.ikki{
+    transform: translate3d(-40px);
+}
+}
